@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" role="img" aria-label="긍정 우세 sentiment bar">
+  <rect width="920" height="240" fill="#ffffff"/>
+  <text x="40" y="42" font-family="Malgun Gothic, Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2933">정책자금 반응 분석</text>
+  <text x="40" y="72" font-family="Malgun Gothic, Arial, sans-serif" font-size="15" fill="#5c6670">2026-07-11 ~ 2026-07-13 · 게시글 1건 · 댓글 4개</text>
+  <rect x="80" y="118" width="720" height="36" rx="8" fill="#edf1f5"/>
+  <rect x="80" y="118" width="720" height="36" rx="8" fill="#2f9e44"/>
+  <text x="80" y="107" font-family="Malgun Gothic, Arial, sans-serif" font-size="16" font-weight="700" fill="#2f9e44">긍정 우세</text>
+  <text x="818" y="143" font-family="Malgun Gothic, Arial, sans-serif" font-size="18" font-weight="700" fill="#2f9e44">100.0%</text>
+  <text x="80" y="188" font-family="Malgun Gothic, Arial, sans-serif" font-size="14" fill="#334155">긍정 1 · 부정 0 · 중립 0</text>
+  <text x="80" y="214" font-family="Malgun Gothic, Arial, sans-serif" font-size="12" fill="#64748b">막대 색상: 긍정 우세는 초록, 부정 우세는 빨강, 혼합/동률은 회색</text>
+</svg>

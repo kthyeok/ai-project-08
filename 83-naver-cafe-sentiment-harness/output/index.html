@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naver Cafe Sentiment Report</title>
+  <style>
+    body { margin: 0; font-family: "Malgun Gothic", Arial, sans-serif; color: #1f2933; background: #f6f8fa; }
+    main { max-width: 1180px; margin: 0 auto; padding: 32px 20px; }
+    h1 { font-size: 32px; margin: 0 0 8px; letter-spacing: 0; }
+    h2 { font-size: 22px; margin: 0 0 12px; letter-spacing: 0; }
+    h3 { font-size: 18px; margin: 0 0 10px; letter-spacing: 0; }
+    p { color: #52606d; font-size: 16px; }
+    .notice { background: #fff4e6; border: 1px solid #ffd8a8; color: #8a4b08; border-radius: 8px; padding: 12px 14px; }
+    .summary { display: grid; grid-template-columns: repeat(4, minmax(150px, 1fr)); gap: 12px; margin: 20px 0; }
+    .metric { background: #fff; border: 1px solid #d9e2ec; border-radius: 8px; padding: 14px; }
+    .metric strong { display: block; font-size: 24px; color: #2f9e44; margin-top: 4px; }
+    .panel { background: #fff; border: 1px solid #d9e2ec; border-radius: 8px; padding: 18px; margin-top: 18px; }
+    img { width: 100%; height: auto; display: block; }
+    table { width: 100%; border-collapse: collapse; background: #fff; margin-top: 14px; border: 1px solid #d9e2ec; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid #e5eaf0; text-align: left; vertical-align: top; font-size: 14px; }
+    th { background: #eef2f6; }
+    .bar-row { display: grid; grid-template-columns: 120px 1fr 72px; gap: 12px; align-items: center; margin: 10px 0; }
+    .track { height: 24px; background: #edf1f5; border-radius: 8px; overflow: hidden; }
+    .fill { height: 100%; border-radius: 8px; }
+    details { background: #fff; border: 1px solid #d9e2ec; border-radius: 8px; margin-top: 10px; padding: 12px 14px; }
+    summary { cursor: pointer; font-weight: 700; }
+    .empty { color: #64748b; margin: 8px 0 0; }
+    @media (max-width: 760px) {
+      .summary { grid-template-columns: 1fr 1fr; }
+      .bar-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>정책자금 반응 리포트</h1>
+    <p>2026-07-11 ~ 2026-07-13 기간 취합 분석 결과입니다.</p>
+    
+    <section class="summary">
+      <div class="metric">전체 게시글<strong>1</strong></div>
+      <div class="metric">전체 댓글<strong>4</strong></div>
+      <div class="metric">우세 반응<strong>긍정 우세</strong></div>
+      <div class="metric">우세 비율<strong>100.0%</strong></div>
+    </section>
+    <section class="panel">
+      <h2>기간 전체 취합</h2>
+      <img src="sentiment_bar.svg" alt="sentiment bar graph">
+    </section>
+    <section class="panel">
+      <h2>일자별 보기</h2>
+      
+            <details open>
+              <summary>2026-07-11 · 중립/혼합 · 게시글 0건</summary>
+              <div class="bar-row">
+                <strong>중립/혼합</strong>
+                <div class="track"><div class="fill" style="width:0.0%; background:#868e96;"></div></div>
+                <strong style="color:#868e96;">0.0%</strong>
+              </div>
+              <p>긍정 0 · 부정 0 · 중립 0 · 댓글 0개</p>
+              <p class="empty">해당 기간에 표시할 게시글이 없습니다.</p>
+            </details>
+            
+
+            <details open>
+              <summary>2026-07-12 · 중립/혼합 · 게시글 0건</summary>
+              <div class="bar-row">
+                <strong>중립/혼합</strong>
+                <div class="track"><div class="fill" style="width:0.0%; background:#868e96;"></div></div>
+                <strong style="color:#868e96;">0.0%</strong>
+              </div>
+              <p>긍정 0 · 부정 0 · 중립 0 · 댓글 0개</p>
+              <p class="empty">해당 기간에 표시할 게시글이 없습니다.</p>
+            </details>
+            
+
+            <details open>
+              <summary>2026-07-13 · 긍정 우세 · 게시글 1건</summary>
+              <div class="bar-row">
+                <strong>긍정 우세</strong>
+                <div class="track"><div class="fill" style="width:100.0%; background:#2f9e44;"></div></div>
+                <strong style="color:#2f9e44;">100.0%</strong>
+              </div>
+              <p>긍정 1 · 부정 0 · 중립 0 · 댓글 4개</p>
+              
+    <table>
+      <thead>
+        <tr><th>분류</th><th>점수</th><th>제목</th><th>근거 키워드</th></tr>
+      </thead>
+      <tbody><tr><td>positive</td><td>100</td><td>소상공인 정책자금 보증승인 받았는데요</td><td>가능, 걱정, 나쁘, 문제, 부담, 승인, 어렵, 연체, 위험, 잘, 좋, 좋아요, 추천, 필요</td></tr></tbody>
+    </table>
+    
+            </details>
+            
+    </section>
+    <section class="panel">
+      <h2>전체 게시글 판정</h2>
+      
+    <table>
+      <thead>
+        <tr><th>일자</th><th>분류</th><th>점수</th><th>제목</th><th>근거 키워드</th></tr>
+      </thead>
+      <tbody><tr><td>2026-07-13</td><td>positive</td><td>100</td><td>소상공인 정책자금 보증승인 받았는데요</td><td>가능, 걱정, 나쁘, 문제, 부담, 승인, 어렵, 연체, 위험, 잘, 좋, 좋아요, 추천, 필요</td></tr></tbody>
+    </table>
+    
+    </section>
+  </main>
+</body>
+</html>

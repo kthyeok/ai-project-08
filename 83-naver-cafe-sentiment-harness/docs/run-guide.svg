@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="660" viewBox="0 0 1120 660" role="img" aria-label="Naver Cafe sentiment harness run guide">
+  <defs>
+    <style>
+      .bg { fill: #f7fafc; }
+      .title { font: 700 34px "Malgun Gothic", Arial, sans-serif; fill: #172033; }
+      .sub { font: 500 18px "Malgun Gothic", Arial, sans-serif; fill: #52606d; }
+      .card { fill: #ffffff; stroke: #d9e2ec; stroke-width: 2; rx: 16; }
+      .step-title { font: 700 21px "Malgun Gothic", Arial, sans-serif; fill: #1f2933; }
+      .body { font: 500 15px "Malgun Gothic", Arial, sans-serif; fill: #334155; }
+      .code { font: 600 15px Consolas, "Malgun Gothic", monospace; fill: #0f172a; }
+      .pill { fill: #e7f5ff; stroke: #74c0fc; stroke-width: 1.5; rx: 18; }
+      .green { fill: #2f9e44; }
+      .red { fill: #e03131; }
+      .gray { fill: #868e96; }
+      .arrow { stroke: #64748b; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect class="bg" width="1120" height="660"/>
+  <text class="title" x="56" y="62">네이버 카페 반응 분석 하네스 실행 방법</text>
+  <text class="sub" x="56" y="94">검색어와 From/To 날짜를 입력하면 실제 네이버 카페를 새로 수집합니다.</text>
+
+  <rect class="card" x="56" y="130" width="300" height="160" rx="16"/>
+  <text class="step-title" x="84" y="170">1. 폴더 이동</text>
+  <text class="body" x="84" y="204">PowerShell에서 하네스 폴더로 이동</text>
+  <text class="code" x="84" y="238">cd revfactory\83-naver-...</text>
+  <text class="body" x="84" y="266">이 위치에서 모든 명령 실행</text>
+
+  <path class="arrow" d="M366 210 H440"/>
+
+  <rect class="card" x="456" y="130" width="300" height="160" rx="16"/>
+  <text class="step-title" x="484" y="170">2. 입력 화면 실행</text>
+  <text class="body" x="484" y="204">검색어/기간을 화면에서 입력</text>
+  <text class="code" x="484" y="238">python .\src\live_app.py</text>
+  <text class="code" x="484" y="262">http://127.0.0.1:8797</text>
+
+  <path class="arrow" d="M766 210 H840"/>
+
+  <rect class="card" x="856" y="130" width="208" height="160" rx="16"/>
+  <text class="step-title" x="884" y="170">3. 결과 확인</text>
+  <text class="body" x="884" y="204">output/index.html</text>
+  <text class="body" x="884" y="230">output/sentiment_bar.svg</text>
+  <text class="body" x="884" y="256">_workspace/*.md</text>
+
+  <rect class="card" x="56" y="344" width="1008" height="230" rx="16"/>
+  <text class="step-title" x="84" y="386">CLI 실제 네이버 카페 수집 모드</text>
+  <text class="body" x="84" y="420">처음 실행하면 네이버 로그인 창이 열립니다. 로그인 세션이 확인되면 검색과 수집이 자동으로 이어집니다.</text>
+  <rect class="pill" x="84" y="448" width="882" height="48" rx="18"/>
+  <text class="code" x="108" y="478">python .\src\run_harness.py --query "검색어" --from-date 2026-07-12 --to-date 2026-07-14</text>
+  <text class="body" x="84" y="532">그래프 색상 규칙:</text>
+  <rect class="green" x="210" y="515" width="24" height="24" rx="5"/>
+  <text class="body" x="244" y="533">긍정 우세</text>
+  <rect class="red" x="350" y="515" width="24" height="24" rx="5"/>
+  <text class="body" x="384" y="533">부정 우세</text>
+  <rect class="gray" x="490" y="515" width="24" height="24" rx="5"/>
+  <text class="body" x="524" y="533">중립/혼합</text>
+</svg>

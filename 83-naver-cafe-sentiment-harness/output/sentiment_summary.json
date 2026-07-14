@@ -1,0 +1,158 @@
+{
+  "query": "정책자금",
+  "start_date": "2026-07-11",
+  "end_date": "2026-07-13",
+  "period_label": "2026-07-11 ~ 2026-07-13",
+  "total_posts": 1,
+  "total_comments": 4,
+  "counts": {
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0
+  },
+  "ratios": {
+    "positive": 1.0,
+    "negative": 0.0,
+    "neutral": 0.0
+  },
+  "dominant": "positive",
+  "dominant_ratio": 1.0,
+  "posts": [
+    {
+      "post_id": "live-006",
+      "url": "https://cafe.naver.com/f-e/cafes/23611966/articles/3696660?boardtype=L&referrerAllArticles=true&inCafeSearch=true&query=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&art=aW50ZXJuYWwtY2FmZS1hcnRpY2xlLXJlYWQtaW5DYWZlLXNlYXJjaC1saXN0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjYWZlVHlwZSI6IkNBRkVfSUQiLCJhcnRpY2xlSWQiOjM2OTY2NjAsImlzc3VlZEF0IjoxNzg0MDM5Mjc0MDY2LCJjYWZlSWQiOjIzNjExOTY2fQ.0boRfwRLdt2q_vuXz0tAKJIKUGdy-9sK46B4Vb52SLg&page=1",
+      "title": "소상공인 정책자금 보증승인 받았는데요",
+      "date": "2026-07-13",
+      "observed_date_text": "작성일\n2026.07.13. 15:35",
+      "comment_count": 4,
+      "score": 100,
+      "sentiment": "positive",
+      "evidence_terms": [
+        "가능",
+        "걱정",
+        "나쁘",
+        "문제",
+        "부담",
+        "승인",
+        "어렵",
+        "연체",
+        "위험",
+        "잘",
+        "좋",
+        "좋아요",
+        "추천",
+        "필요"
+      ],
+      "field_scores": {
+        "title": 2,
+        "content": 52,
+        "comments": 44
+      }
+    }
+  ],
+  "daily": [
+    {
+      "query": "정책자금",
+      "start_date": "2026-07-11",
+      "end_date": "2026-07-11",
+      "period_label": "2026-07-11",
+      "total_posts": 0,
+      "total_comments": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "dominant": "neutral",
+      "dominant_ratio": 0.0,
+      "posts": []
+    },
+    {
+      "query": "정책자금",
+      "start_date": "2026-07-12",
+      "end_date": "2026-07-12",
+      "period_label": "2026-07-12",
+      "total_posts": 0,
+      "total_comments": 0,
+      "counts": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      "dominant": "neutral",
+      "dominant_ratio": 0.0,
+      "posts": []
+    },
+    {
+      "query": "정책자금",
+      "start_date": "2026-07-13",
+      "end_date": "2026-07-13",
+      "period_label": "2026-07-13",
+      "total_posts": 1,
+      "total_comments": 4,
+      "counts": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0
+      },
+      "ratios": {
+        "positive": 1.0,
+        "negative": 0.0,
+        "neutral": 0.0
+      },
+      "dominant": "positive",
+      "dominant_ratio": 1.0,
+      "posts": [
+        {
+          "post_id": "live-006",
+          "url": "https://cafe.naver.com/f-e/cafes/23611966/articles/3696660?boardtype=L&referrerAllArticles=true&inCafeSearch=true&query=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&art=aW50ZXJuYWwtY2FmZS1hcnRpY2xlLXJlYWQtaW5DYWZlLXNlYXJjaC1saXN0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjYWZlVHlwZSI6IkNBRkVfSUQiLCJhcnRpY2xlSWQiOjM2OTY2NjAsImlzc3VlZEF0IjoxNzg0MDM5Mjc0MDY2LCJjYWZlSWQiOjIzNjExOTY2fQ.0boRfwRLdt2q_vuXz0tAKJIKUGdy-9sK46B4Vb52SLg&page=1",
+          "title": "소상공인 정책자금 보증승인 받았는데요",
+          "date": "2026-07-13",
+          "observed_date_text": "작성일\n2026.07.13. 15:35",
+          "comment_count": 4,
+          "score": 100,
+          "sentiment": "positive",
+          "evidence_terms": [
+            "가능",
+            "걱정",
+            "나쁘",
+            "문제",
+            "부담",
+            "승인",
+            "어렵",
+            "연체",
+            "위험",
+            "잘",
+            "좋",
+            "좋아요",
+            "추천",
+            "필요"
+          ],
+          "field_scores": {
+            "title": 2,
+            "content": 52,
+            "comments": 44
+          }
+        }
+      ]
+    }
+  ],
+  "source_mode": "live",
+  "warnings": [
+    "기간 밖 게시글을 제외했습니다: 2026-07-14 / https://cafe.naver.com/f-e/cafes/23611966/articles/3697581?boardtype=L&referrerAllArticles=true&inCafeSearch=true&query=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&art=aW50ZXJuYWwtY2FmZS1hcnRpY2xlLXJlYWQtaW5DYWZlLXNlYXJjaC1saXN0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjYWZlVHlwZSI6IkNBRkVfSUQiLCJhcnRpY2xlSWQiOjM2OTc1ODEsImlzc3VlZEF0IjoxNzg0MDM5Mjc0MDY2LCJjYWZlSWQiOjIzNjExOTY2fQ.ly5IMA4AlzuEGOF7f5MOYwYZjygmCr_ISzrGSdH2w8w&page=1",
+    "기간 밖 게시글을 제외했습니다: 2026-07-14 / https://cafe.naver.com/f-e/cafes/23611966/articles/3697530?boardtype=L&referrerAllArticles=true&inCafeSearch=true&query=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&art=aW50ZXJuYWwtY2FmZS1hcnRpY2xlLXJlYWQtaW5DYWZlLXNlYXJjaC1saXN0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjYWZlVHlwZSI6IkNBRkVfSUQiLCJhcnRpY2xlSWQiOjM2OTc1MzAsImlzc3VlZEF0IjoxNzg0MDM5Mjc0MDY2LCJjYWZlSWQiOjIzNjExOTY2fQ.4hbDSurloZS6i-5RoaMzG2MUr0DLvmpNckWNF-o6kkE&page=1",
+    "기간 밖 게시글을 제외했습니다: 2026-07-14 / https://cafe.naver.com/f-e/cafes/23611966/articles/3697521?boardtype=L&referrerAllArticles=true&inCafeSearch=true&query=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&art=aW50ZXJuYWwtY2FmZS1hcnRpY2xlLXJlYWQtaW5DYWZlLXNlYXJjaC1saXN0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjYWZlVHlwZSI6IkNBRkVfSUQiLCJhcnRpY2xlSWQiOjM2OTc1MjEsImlzc3VlZEF0IjoxNzg0MDM5Mjc0MDY2LCJjYWZlSWQiOjIzNjExOTY2fQ.aUkyz06UW3dSc3LDrxZdUGdLM4X6JiM48RzAvJ2IeEc&page=1",
+    "기간 밖 게시글을 제외했습니다: 2026-07-14 / https://cafe.naver.com/f-e/cafes/23611966/articles/3697511?boardtype=L&referrerAllArticles=true&inCafeSearch=true&query=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&art=aW50ZXJuYWwtY2FmZS1hcnRpY2xlLXJlYWQtaW5DYWZlLXNlYXJjaC1saXN0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjYWZlVHlwZSI6IkNBRkVfSUQiLCJhcnRpY2xlSWQiOjM2OTc1MTEsImlzc3VlZEF0IjoxNzg0MDM5Mjc0MDY2LCJjYWZlSWQiOjIzNjExOTY2fQ.W1pxv4fuX1nlGxvuWkSL9aPSB_f9gbcLR9dq3y_d78c&page=1",
+    "기간 밖 게시글을 제외했습니다: 2026-07-14 / https://cafe.naver.com/f-e/cafes/23611966/articles/3697393?boardtype=L&referrerAllArticles=true&inCafeSearch=true&query=%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88&art=aW50ZXJuYWwtY2FmZS1hcnRpY2xlLXJlYWQtaW5DYWZlLXNlYXJjaC1saXN0.eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJjYWZlVHlwZSI6IkNBRkVfSUQiLCJhcnRpY2xlSWQiOjM2OTczOTMsImlzc3VlZEF0IjoxNzg0MDM5Mjc0MDY2LCJjYWZlSWQiOjIzNjExOTY2fQ.3SMT8EJKzFoIX0nKf_OdOaYlwLn6gF9ImWNiYmfJk38&page=1"
+  ]
+}
